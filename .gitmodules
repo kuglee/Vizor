@@ -1,0 +1,3 @@
+[submodule "Vizor/Swizzle"]
+	path = Vizor/Swizzle
+	url = https://github.com/kuglee/Swizzle.git

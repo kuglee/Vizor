@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D06CC452158B01300A29D0D /* TTProfileArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06CC442158B01300A29D0D /* TTProfileArrayController.swift */; };
+		5D06CC472158B04300A29D0D /* TTEditingArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D06CC462158B04300A29D0D /* TTEditingArrayController.swift */; };
+		5D3B32B62183068200885E24 /* Swizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3B32B52183068200885E24 /* Swizzle.framework */; };
+		5D3CE818214F7709006F0FD3 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CE815214F7709006F0FD3 /* Loader.swift */; };
+		5D3CE81C214F7B00006F0FD3 /* TTApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3CE81B214F7B00006F0FD3 /* TTApplication.swift */; };
+		5DD803172156E0D400BCE9C8 /* TTBackgroundColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD803162156E0D400BCE9C8 /* TTBackgroundColorWell.swift */; };
+		5DD803192156E11700BCE9C8 /* TTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD803182156E11700BCE9C8 /* TTView.swift */; };
+		5DD8031B2156E15400BCE9C8 /* TTAccessibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8031A2156E15400BCE9C8 /* TTAccessibleView.swift */; };
+		5DD8031D2156E19A00BCE9C8 /* TTPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8031C2156E19A00BCE9C8 /* TTPane.swift */; };
+		5DD8031F2156E1B400BCE9C8 /* TTTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD8031E2156E1B400BCE9C8 /* TTTabController.swift */; };
+		5DD803212156E1D900BCE9C8 /* TTProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD803202156E1D900BCE9C8 /* TTProfile.swift */; };
+		5DD803272156E24400BCE9C8 /* TTWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD803262156E24400BCE9C8 /* TTWindowController.swift */; };
+		5DD803292156E87900BCE9C8 /* TTAppPrefsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD803282156E87900BCE9C8 /* TTAppPrefsController.swift */; };
+		5DF0A8E0217299BD0002DA87 /* TTWorkspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0A8DF217299BD0002DA87 /* TTWorkspace.swift */; };
+		5DF0A8E62174ED340002DA87 /* NSViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0A8E42174ED340002DA87 /* NSViewExtension.swift */; };
+		5DF0A8E72174ED340002DA87 /* NSButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0A8E52174ED340002DA87 /* NSButtonExtension.swift */; };
+		5DF0A9112174EEC50002DA87 /* loader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0A90E2174EEC50002DA87 /* loader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D06CC442158B01300A29D0D /* TTProfileArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTProfileArrayController.swift; sourceTree = "<group>"; };
+		5D06CC462158B04300A29D0D /* TTEditingArrayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTEditingArrayController.swift; sourceTree = "<group>"; };
+		5D3B32B52183068200885E24 /* Swizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Swizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3CE80B214F7635006F0FD3 /* Vizor.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vizor.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D3CE815214F7709006F0FD3 /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		5D3CE81B214F7B00006F0FD3 /* TTApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTApplication.swift; sourceTree = "<group>"; };
+		5DD803162156E0D400BCE9C8 /* TTBackgroundColorWell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTBackgroundColorWell.swift; sourceTree = "<group>"; };
+		5DD803182156E11700BCE9C8 /* TTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTView.swift; sourceTree = "<group>"; };
+		5DD8031A2156E15400BCE9C8 /* TTAccessibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTAccessibleView.swift; sourceTree = "<group>"; };
+		5DD8031C2156E19A00BCE9C8 /* TTPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTPane.swift; sourceTree = "<group>"; };
+		5DD8031E2156E1B400BCE9C8 /* TTTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTabController.swift; sourceTree = "<group>"; };
+		5DD803202156E1D900BCE9C8 /* TTProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTProfile.swift; sourceTree = "<group>"; };
+		5DD803262156E24400BCE9C8 /* TTWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTWindowController.swift; sourceTree = "<group>"; };
+		5DD803282156E87900BCE9C8 /* TTAppPrefsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTAppPrefsController.swift; sourceTree = "<group>"; };
+		5DF0A8DF217299BD0002DA87 /* TTWorkspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTWorkspace.swift; sourceTree = "<group>"; };
+		5DF0A8E42174ED340002DA87 /* NSViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSViewExtension.swift; sourceTree = "<group>"; };
+		5DF0A8E52174ED340002DA87 /* NSButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSButtonExtension.swift; sourceTree = "<group>"; };
+		5DF0A90E2174EEC50002DA87 /* loader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loader.m; sourceTree = "<group>"; };
+		5DF0A90F2174EEC50002DA87 /* Vizor-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Vizor-Bridging-Header.h"; sourceTree = "<group>"; };
+		5DF0A9102174EEC50002DA87 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D3CE808214F7635006F0FD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D3B32B62183068200885E24 /* Swizzle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3B32B42183068200885E24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D3B32B52183068200885E24 /* Swizzle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D3CE802214F7635006F0FD3 = {
+			isa = PBXGroup;
+			children = (
+				5D3CE80D214F7635006F0FD3 /* Vizor */,
+				5D3CE80C214F7635006F0FD3 /* Products */,
+				5D3B32B42183068200885E24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D3CE80C214F7635006F0FD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D3CE80B214F7635006F0FD3 /* Vizor.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D3CE80D214F7635006F0FD3 /* Vizor */ = {
+			isa = PBXGroup;
+			children = (
+				5D3CE815214F7709006F0FD3 /* Loader.swift */,
+				5D3CE81B214F7B00006F0FD3 /* TTApplication.swift */,
+				5DD803282156E87900BCE9C8 /* TTAppPrefsController.swift */,
+				5DD8031A2156E15400BCE9C8 /* TTAccessibleView.swift */,
+				5DD803162156E0D400BCE9C8 /* TTBackgroundColorWell.swift */,
+				5D06CC462158B04300A29D0D /* TTEditingArrayController.swift */,
+				5DD8031C2156E19A00BCE9C8 /* TTPane.swift */,
+				5DD803202156E1D900BCE9C8 /* TTProfile.swift */,
+				5D06CC442158B01300A29D0D /* TTProfileArrayController.swift */,
+				5DD8031E2156E1B400BCE9C8 /* TTTabController.swift */,
+				5DD803182156E11700BCE9C8 /* TTView.swift */,
+				5DD803262156E24400BCE9C8 /* TTWindowController.swift */,
+				5DF0A8DF217299BD0002DA87 /* TTWorkspace.swift */,
+				5DF0A8E32174ED340002DA87 /* Extensions */,
+				5DF0A90D2174EEC50002DA87 /* Supporting Files */,
+			);
+			path = Vizor;
+			sourceTree = "<group>";
+		};
+		5DF0A8E32174ED340002DA87 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0A8E42174ED340002DA87 /* NSViewExtension.swift */,
+				5DF0A8E52174ED340002DA87 /* NSButtonExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5DF0A90D2174EEC50002DA87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DF0A90E2174EEC50002DA87 /* loader.m */,
+				5DF0A90F2174EEC50002DA87 /* Vizor-Bridging-Header.h */,
+				5DF0A9102174EEC50002DA87 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D3CE80A214F7635006F0FD3 /* Vizor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3CE811214F7635006F0FD3 /* Build configuration list for PBXNativeTarget "Vizor" */;
+			buildPhases = (
+				5D3CE807214F7635006F0FD3 /* Sources */,
+				5D3CE808214F7635006F0FD3 /* Frameworks */,
+				5D3CE809214F7635006F0FD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vizor;
+			productName = Vizor;
+			productReference = 5D3CE80B214F7635006F0FD3 /* Vizor.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D3CE803214F7635006F0FD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Librecz Gábor";
+				TargetAttributes = {
+					5D3CE80A214F7635006F0FD3 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 5D3CE806214F7635006F0FD3 /* Build configuration list for PBXProject "Vizor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D3CE802214F7635006F0FD3;
+			productRefGroup = 5D3CE80C214F7635006F0FD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D3CE80A214F7635006F0FD3 /* Vizor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D3CE809214F7635006F0FD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D3CE807214F7635006F0FD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF0A9112174EEC50002DA87 /* loader.m in Sources */,
+				5D06CC452158B01300A29D0D /* TTProfileArrayController.swift in Sources */,
+				5DF0A8E0217299BD0002DA87 /* TTWorkspace.swift in Sources */,
+				5DF0A8E72174ED340002DA87 /* NSButtonExtension.swift in Sources */,
+				5DD8031B2156E15400BCE9C8 /* TTAccessibleView.swift in Sources */,
+				5DD8031F2156E1B400BCE9C8 /* TTTabController.swift in Sources */,
+				5DD8031D2156E19A00BCE9C8 /* TTPane.swift in Sources */,
+				5DD803292156E87900BCE9C8 /* TTAppPrefsController.swift in Sources */,
+				5D06CC472158B04300A29D0D /* TTEditingArrayController.swift in Sources */,
+				5D3CE81C214F7B00006F0FD3 /* TTApplication.swift in Sources */,
+				5DD803172156E0D400BCE9C8 /* TTBackgroundColorWell.swift in Sources */,
+				5DD803192156E11700BCE9C8 /* TTView.swift in Sources */,
+				5D3CE818214F7709006F0FD3 /* Loader.swift in Sources */,
+				5DD803212156E1D900BCE9C8 /* TTProfile.swift in Sources */,
+				5DF0A8E62174ED340002DA87 /* NSViewExtension.swift in Sources */,
+				5DD803272156E24400BCE9C8 /* TTWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D3CE80F214F7635006F0FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D3CE810214F7635006F0FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D3CE812214F7635006F0FD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C89KNBM28S;
+				INFOPLIST_FILE = "Vizor/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuglee.Vizor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Vizor/Supporting Files/Vizor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5D3CE813214F7635006F0FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C89KNBM28S;
+				INFOPLIST_FILE = "Vizor/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuglee.Vizor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Vizor/Supporting Files/Vizor-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D3CE806214F7635006F0FD3 /* Build configuration list for PBXProject "Vizor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3CE80F214F7635006F0FD3 /* Debug */,
+				5D3CE810214F7635006F0FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3CE811214F7635006F0FD3 /* Build configuration list for PBXNativeTarget "Vizor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D3CE812214F7635006F0FD3 /* Debug */,
+				5D3CE813214F7635006F0FD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D3CE803214F7635006F0FD3 /* Project object */;
+}
